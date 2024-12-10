@@ -62,4 +62,8 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+vim.cmd 'hi IlluminatedWordText guibg=none gui=underline'
+vim.cmd 'hi IlluminatedWordRead guibg=none gui=underline'
+vim.cmd 'hi IlluminatedWordWrite guibg=none gui=underline'
+
 -- vim: ts=2 sts=2 sw=2 et
